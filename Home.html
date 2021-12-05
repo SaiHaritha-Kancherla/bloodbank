@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HOME PAGE</title>
+	
+    <style type="text/css">
+    #marqueetag{
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-decoration:underline;
+        
+       color:#ff0066;
+    }
+    #image2{
+        padding: 25px;
+        width:40%;
+    }
+    .second{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #3399ff;
+    }
+    .tableclass{
+        text-align: center;
+		}
+		/*body {
+  background-image: linear-gradient(to diagonal, red , white,red);
+  background-opacity:50%;
+}*/
+	body,html,ul,li,img,div{
+            margin:0;padding:0;
+        }
+        /*body{
+            width:80%;
+            margin: 50px auto;
+        }*/
+        .auto1{
+            outline: 3px solid red;
+            width: 500px;
+            height: 300px;
+            overflow-x:hidden;
+			float:right;
+			margin-right:15px;
+			margin-left:2px;
+        }
+       .auto1 img{
+           display: block;
+		   
+
+       }
+        .auto2{
+            list-style: none;
+            display: flex;
+            animation-name: slide;
+           animation-duration: 20s;
+           animation-iteration-count: infinite;
+           animation-timing-function: ease-in-out;
+           animation:slide 20s ease-in-out infinite;
+           /*animation-direction: alternate-reverse;*/
+
+        }
+        .auto2:hover{
+            animation-play-state:paused ;
+        }
+        @keyframes slide {
+            
+            10%{
+                transform:translateX(0);
+            }
+            30%{
+                transform:translateX(-500px);
+            }
+            50%{
+                transform:translateX(-1000px);
+            }
+            70%{
+                transform:translateX(-1500px);
+            }
+            90%{
+                transform:translateX(-2500px);
+            }
+
+
+            
+        }
+    </style>
+  
+    </head>
+    <body>
+	
+        <p class="first">
+            <img src="drop.PNG" alt="BLOOD DROP" width="150" height="150"/>
+            <marquee id="marqueetag" width="50%"  scrollamount="7" scrolldelay="50" hspace="50"><h1><b><i>The gift of blood is the gift of life</i></b><h1></marquee>
+        </p>
+        <p>
+		<div scrolling="no" class="auto1">
+        <ul class="auto2">
+			<li><img src="donarimage1.jpg" alt="donation4" width="500px" height="300px"></li>
+			<li><img src="slide2.jpg" alt="donation2" width="500px" height="300px"></li>
+            <li><img src="slide1.png" alt="donation1" width="500px" height="300px"></li>
+            <li><img src="slide3.jpg" alt="donation3" width="500px" height="300px"></li>
+            <li><img src="donation2.jpg" alt="donation4" width="500px" height="300px"></li>
+        </ul>
+    </div>
+			
+        <p class="second"><b>WHY TO DONATE BLOOD??</b></p>
+            <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 22px;">
+            Every two seconds someone needs blood.<br>
+            More than 38,000 blood donations are needed every day.<br>
+            A total of 30 million blood components are transfused each year.</p>
+        </p>
+      <br><br>
+        <p><b style="font-size: 22px; font-family:monospace ;color:#cc00cc"> In order to donate blood you are recommended to check the following diseases</b>
+        <ul style="font-size: 18px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;">
+          <li>Hepatitis B, C</li>
+          <li> AIDS # Diabetes (are you under medication currently?)</li>
+          <li> Fits/ Convulsions (are you under medication currently?)</li>
+          <li>Cancer # Leprosy or any other infectious diseases</li>
+          <li>Any allergies (Only if you are suffering from severe symptoms)</li>
+          <li>Hemophilia/ Bleeding problems</li>
+          <li>Kidney disease</li>
+          <li> Heart disease</li>
+          <li>Hormonal disorders</li>
+          <li> Blood Donation (within the last 3 months)</li>
+          <li>Hemoglobin deficiency / Anemia (recently)</li>
+          <li>Drastic weight loss (recently)</li>
+          <li># Major Surgery (within the last 3 months)</li>
+          <li>Malaria (within 1 year)</li>
+          <li>Tuberculosis (within 2 years)</li>
+          <li>Organ Transplant (within one year)</li>
+          <li>Blood Transfusion (within the last 6 months)</li>
+        </h2>
+        </ul></p>
+        </br>
+        <img id="b"src="donation4.jpg" height="350px" width= "350px"alt="DONATE BLOOD-SAVE LIFE" style="float:left"/>
+	<table class="tableclass" border="2px solid black"  cellpadding="0" cellspacing="0" width="750px" height="300" align="right">
+		<tr>
+			<th style="background-color:#d2ff4d;">Blood Type</th>
+			<th style="background-color:#d2ff4d;">Donate Blood To</th>
+			<th style="background-color:#d2ff4d;">Reveive Blood From</th>
+		</tr>
+		<tr>
+			<td>A+		</td>
+			<td>A+ , AB+	</td>
+			<td>A+ , A-, O+, O-</td>
+		</tr>
+		<tr>
+			<td>O+		</td>
+			<td>O+,A+,B+,AB+		</td>
+			<td>O+,O-		</td>
+		</tr>
+		<tr>
+			<td>B+		</td>
+			<td>	B+,AB+	</td>
+			<td>B+,B-,O-,O+		</td>
+		</tr>
+		<tr>
+			<td>AB+		</td>
+			<td>AB+		</td>
+			<td>Everyone		</td>
+		</tr>
+		<tr>
+			<td>A-		</td>
+			<td>A+,A-,AB+,AB-		</td>
+			<td>A-,O-		</td>
+		</tr>			
+		<tr>
+			<td>	O-	</td>
+			<td>Everyone		</td>
+			<td>	O-	</td>
+		</tr>
+		<tr>
+			<td>B-		</td>
+			<td>B+,B-,AB+,AB-		</td>
+			<td>B-,O-		</td>
+		</tr>
+		<tr>
+			<td>AB-		</td>
+			<td>AB+,AB-		</td>
+			<td>AB-,A-,B-,O-		</td>
+		</tr>
+	</table>
+	
+    </body>
+</html>

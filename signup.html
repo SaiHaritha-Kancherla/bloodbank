@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Signup</title>
+	
+ 
+  
+	
+	
+	
+	
+	<style>
+	.lh{
+		float:right;
+	}
+	body
+{
+background-image: url('im1.jpg');
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	.centerdiv{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:none;
+	background-color:white;
+	border-radius: 25px;
+  margin-left:400px;
+  margin-right:400px;
+}
+.bu{
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius:25px;
+}
+}
+
+form
+{
+font-size:30px;
+color:black;
+}
+img{
+height:100px;
+width:100px;
+float:left;
+margin-top:0px;
+}
+.header1{
+	color:white;
+	margin-left:460px;
+	margin-bottom:0px;
+}
+.sub{
+	margin-left:130px;
+}
+.tb{
+	background-image:url("usimg.png");   
+background-position:right;   
+background-repeat:no-repeat;   
+width: 200px;
+height: 30px;
+background-size: 30px;
+}
+.ps{
+background-image:url("psimg.png");   
+background-position:right;   
+background-repeat:no-repeat;   
+width: 200px;
+height: 30px;
+background-size: 30px;
+}
+.bu:hover{
+	-webkit-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.2);
+}
+img{
+border-radius:50%;
+height:100px;
+}
+.aud{
+	float:left;
+	margin-right:15px;
+	
+}
+</style>
+
+</head>
+	<body>
+	 <main>
+	 <div class="aud">
+	 <a onclick="playsong()"  href="javascript:;" onblclick="pausesong()">
+	 <img src="girl.jpeg" style="border-radius:50%">
+	 </a>
+	 </div>
+	 </main>
+	<script>
+	var mysong= new Audio();
+		 mysong.src='siau.mp3';
+		 const playsong= () =>{
+		 mysong.play()
+		 }
+		 const pausesong= () =>{
+		 mysong.pause()
+		 }
+		 
+		 </script>
+		 
+		 
+	<a  href="Static.html" ><img src="ho.png"  class="lh"  alt="return to home"></a>
+	
+	
+	
+	<div class="header1">
+		<h1>LIFE SAVER BLOOD BANK</h1>		
+		
+	</div>
+	
+		
+	
+	
+	<form method="POST"  action="signupc.php">
+	<table class="centerdiv" border ="0"  align="center">
+	<tr>
+		<td colspan="2" align="center"><h3 style="color:red;">SIGNUP</h3></td>
+	</tr>
+	<tr>
+		<td><b><h2>Username : </h2></td>
+		<td><input type="text" class="tb"  name="username" id="username">
+		
+		</b></td></br>
+	</tr>	
+	<tr>
+		<td><b><h2>Password :<h2></td>
+		<td><input type="password" name="password"   id="password" class="ps" maxlength="12" required></b></td></br></br>
+	</tr>
+	<tr>
+		<td><b><h2>Re-enter Password:</h2> </td>
+		<td><input type="password" id="rpss" name="rpss" class="ps" maxlength="12"  required></td>
+	</tr>
+		<tr>
+		</tr><tr>
+		</tr>
+		
+	<tr>
+		<td colspan="2"  align="center"><input type="submit" class="bu"   value="Signup"></td>
+		
+
+
+            
+	</tr>
+	</table>	
+		
+	</form>	
+
+	</body>
+	
+</html>
